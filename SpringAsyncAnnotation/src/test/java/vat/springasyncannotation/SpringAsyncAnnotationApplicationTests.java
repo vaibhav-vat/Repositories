@@ -1,0 +1,13 @@
+package vat.springasyncannotation;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class SpringAsyncAnnotationApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
