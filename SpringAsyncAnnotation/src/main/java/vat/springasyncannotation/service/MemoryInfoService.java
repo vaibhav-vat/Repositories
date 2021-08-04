@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class MemoryInfoService
 {
 	@Async("myAsyncExecutor")
-	public CompletableFuture<String> ingest()
+	public CompletableFuture<String> getUnits()
 	{
 		for(int i=0;i<10;i++)
 		{
